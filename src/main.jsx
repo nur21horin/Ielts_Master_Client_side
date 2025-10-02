@@ -27,7 +27,8 @@ const router = createBrowserRouter([
   {
     path: "/showvocab",
     element: <ShowVocabulary />,
-    loader: () => fetch("http://localhost:5000/users"),
+    // loader: () => fetch("https://ielts-master-server.vercel.app/users"),
+    loader:()=>fetch("/data.json"),
   },{
     path:"/vocabpage", element:<VocabPage/>
   }

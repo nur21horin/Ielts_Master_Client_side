@@ -13,8 +13,8 @@ const ShowVocabulary = () => {
             className="border-2 border-gray-300 rounded-lg  transition hover:bg-amber-600 duration-200 p-4 text-center "
           >
             <div className=" text-2xl w-full h-[45px] flex justify-around  text-inline   ">
-              <h2>{user.word}</h2>
-              <div>{user.meaning}</div>
+              <h2>{user.english}</h2>
+              <div>{user.bengali}</div>
             </div>
           </li>
         ))}
